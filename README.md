@@ -25,19 +25,19 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] Each item has a category associated with it so that the user can categorize it further. Idea here is to further allow filtering of the list. But I couldn't get that done due to time constraints.
+* [X] Each item has a category associated with it so that the user can categorize it further. Idea here is to further allow filtering of the list. But I couldn't get that done due to time constraints.
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/uYfrMmw.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The biggest challenge I had was whwen my activity refused to return with my data after it completed. I wasnt able to find the reason when the onActivityResult didnt get triggered after my activity finished successfully. Even debug showed that the finish on my activity triggered correctly. Turned out that I was using the Result_OK instead of REQUEST_CODE and because Result_OK is negative, it didnt trigger the return to my main activity.
 
 ## License
 
