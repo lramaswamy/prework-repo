@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MyDayly</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_edit_item">Task Details</string>
+
+    <string-array name="priorityList">
+        <item>All</item>item>
+        <item>High</item>
+        <item>Critical</item>
+        <item>Medium</item>
+        <item>Low</item>
+        <item>Trivial</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>All</item>item>
+        <item>Grocery</item>
+        <item>Travel</item>
+        <item>Shopping</item>
+        <item>Work</item>
+        <item>Bills</item>
+        <item>Social</item>
+    </string-array>
+</resources>
